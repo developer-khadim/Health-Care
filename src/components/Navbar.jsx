@@ -33,7 +33,6 @@ const Navbar = () => {
           <Button white text={"Sign Up"} className="transition-all duration-300 transform hover:scale-105" />
           <Button text={"Log In"} className="transition-all duration-300 transform hover:scale-105" />
         </div>
-        {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button
             className="text-white transition-all duration-300 ease-in-out transform hover:rotate-180"
