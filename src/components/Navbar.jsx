@@ -56,7 +56,7 @@ const Navbar = () => {
       </div>
       {/* Mobile Navigation Links */}
       <div
-        className={`md:hidden fixed top-[60px] left-0 right-0 bottom-0 bg-black bg-opacity-95 z-50 flex flex-col items-center justify-center gap-8 font-semibold transition-transform duration-500 ease-in-out ${
+        className={`md:hidden fixed top-[60px] left-0 right-0 bottom-0 bg-white bg-opacity-95 z-50 flex flex-col items-center justify-center gap-8 font-semibold transition-transform duration-500 ease-in-out ${
           isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -64,7 +64,7 @@ const Navbar = () => {
           <Link
             key={item}
             to={item === 'Home' ? '/' : `/${item}`}
-            className={`text-2xl text-white hover:text-active transition-all duration-300 transform hover:scale-110`}
+            className={`text-2xl text-black hover:text-active transition-all duration-300 transform hover:scale-110`}
             onClick={toggleMenu}
             style={{animationDelay: `${index * 0.1}s`}}
           >
