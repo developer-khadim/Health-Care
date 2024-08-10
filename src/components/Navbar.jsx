@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import { Link, useLocation } from "react-router-dom";
 import Button from "./Button";
@@ -11,6 +11,18 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMenuOpen]);
 
   return (
     <nav>
@@ -43,9 +55,9 @@ const Navbar = () => {
         </div>
       </div>
       {/* Mobile Navigation Links */}
-      <div 
-        className={`md:hidden fixed top-[60px] left-0 right-0 bottom-0 bg-black bg-opacity-95 z-50 flex flex-col items-center justify-center gap-8 font-semibold transition-all duration-500 ease-in-out ${
-          isMenuOpen ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'
+      <div
+        className={`md:hidden fixed top-[60px] left-0 right-0 bottom-0 bg-black bg-opacity-95 z-50 flex flex-col items-center justify-center gap-8 font-semibold transition-transform duration-500 ease-in-out ${
+          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         {['Home', 'Service', 'Contact', 'Help'].map((item, index) => (
@@ -60,8 +72,8 @@ const Navbar = () => {
           </Link>
         ))}
         <div className="flex gap-6 mt-8">
-          <Button  text={"Sign Up"} className="text-lg px-6 py-2 transition-all duration-300 transform hover:scale-105" />
-          <Button white text={"Log In"}  className="text-lg px-6 py-2 transition-all duration-300 transform hover:scale-105" />
+          <Button text={"Sign Up"} className="text-lg px-6 py-2 transition-all duration-300 transform hover:scale-105" />
+          <Button white text={"Log In"} className="text-lg px-6 py-2 transition-all duration-300 transform hover:scale-105" />
         </div>
       </div>
     </nav>

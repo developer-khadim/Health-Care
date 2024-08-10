@@ -15,3 +15,21 @@ const Button = ({ white, text, backwhite }) => {
 };
 
 export default Button;
+
+// import React from 'react';
+
+// const Button = ({ text, white, backwhite }) => {
+//   return (
+//     <button
+//       className={`
+//         flex items-center justify-center font-semibold px-6 py-3 rounded-md
+//         ${backwhite ? 'bg-white text-black' : ''}
+//         ${white && !backwhite ? 'bg-transparent text-green' : 'bg-active text-white'}
+//       `}
+//     >
+//       {text}
+//     </button>
+//   );
+// };
+
+// export default Button;
