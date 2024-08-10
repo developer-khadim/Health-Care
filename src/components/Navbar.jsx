@@ -60,8 +60,8 @@ const Navbar = () => {
           </Link>
         ))}
         <div className="flex gap-6 mt-8">
-          <Button white text={"Sign Up"} className="text-lg px-6 py-2 transition-all duration-300 transform hover:scale-105" />
-          <Button text={"Log In"} className="text-lg px-6 py-2 transition-all duration-300 transform hover:scale-105" />
+          <Button  text={"Sign Up"} className="text-lg px-6 py-2 transition-all duration-300 transform hover:scale-105" />
+          <Button white text={"Log In"}  className="text-lg px-6 py-2 transition-all duration-300 transform hover:scale-105" />
         </div>
       </div>
     </nav>

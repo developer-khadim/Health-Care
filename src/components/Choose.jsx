@@ -15,12 +15,14 @@ const Choose = () => {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia accusamus temporibus deserunt, nihil nisi cum dolores.
               Dicta nihil numquam soluta tempora.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 w-full sm:w-auto">
-              <Button text="Get started" full className="w-full sm:w-auto py-3 sm:py-2 px-8 sm:px-6 text-base sm:text-sm" />
-              <Button text="Talk to sales" fullwhite className="w-full sm:w-auto py-3 sm:py-2 px-8 sm:px-6 text-base sm:text-sm" />
+            <div  >
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 w-full sm:w-auto">
+              <Button text="Get started" />
+              <Button text="Book Now" backwhite />
+            </div>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mt-10 md:mt-0">
+          <div className="lg:max-w-lg lg:w-full md:w-2/2 w-full mt-10 md:mt-0">
             <img
               className="object-cover object-center rounded w-full h-auto transform transition-transform duration-300 hover:scale-105"
               alt="hero"

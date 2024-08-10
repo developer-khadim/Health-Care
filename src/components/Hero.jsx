@@ -5,7 +5,7 @@ import play from '../assets/play.png';
 
 const Hero = () => {
   return (
-    <div className='px-4 md:px-10 py-8 md:py-16 md:max-w-[70vw] mx-auto flex justify-center items-center min-h-[94vh]'>
+    <div className='px-4 md:px-10 py-8 md:py-16 md:max-w-[70vw] xl:w-[90vw] mx-auto flex justify-center items-center min-h-[94vh]'>
       <div className='flex flex-col-reverse md:flex-row items-center justify-between gap-8'>
         <div className='w-full md:w-1/2 lg:w-[45%] space-y-4 md:space-y-6'>
           <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold leading-tight'>
@@ -19,7 +19,7 @@ const Hero = () => {
             <Button text="Schedule an Appointment" className="w-full sm:w-auto text-sm md:text-base" />
             <div className='flex items-center mt-4 sm:mt-0'>
               <img src={play} alt="Play" className='w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-2' />
-              <Button white text="Discover More" className="w-full sm:w-auto text-sm md:text-base" />
+              <Button white text="Discover More"  />
             </div>
           </div>
         </div>
