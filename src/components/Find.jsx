@@ -46,7 +46,6 @@
 
 // export default Find
 
-import React from 'react'
 import avalable from '../assets/avalable.png';
 import Button from './Button';
 
