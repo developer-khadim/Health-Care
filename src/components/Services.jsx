@@ -26,8 +26,8 @@ const Services = () => {
               gravida malesuada quam commodo id integer nam.
             </p>
           </div>
-          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <Card className="w-full sm:w-80 md:w-96 rounded-xl flex flex-col items-center pt-5 transform transition-transform duration-300 hover:scale-105">
+          <div className="flex flex-col md:flex-row gap-4 justify-center items-centerzz">
+            <Card className="w-full sm:w-80 md:w-96 rounded-xl flex flex-col items-center pt-5 transform transition-transform duration-300 hover:scale-105 ">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img src={tooth} alt="card-image" className="h-full w-full object-cover" />
               </CardHeader>
