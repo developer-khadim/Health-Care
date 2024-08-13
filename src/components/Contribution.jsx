@@ -27,9 +27,10 @@ const Contribution = () => {
               <button
                 className="px-4 py-3 bg-active text-white font-bold
                rounded-full hover:text-active hover:bg-white  cursor-pointer "
-              >
+              > 
                 Subscribe{" "}
               </button>
+              {/* ok */}
             </div>
           </div>
         </div>
