@@ -30,7 +30,6 @@ const Contribution = () => {
               > 
                 Subscribe{" "}
               </button>
-              {/* ok */}
             </div>
           </div>
         </div>
