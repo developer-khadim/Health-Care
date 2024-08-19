@@ -24,7 +24,12 @@ const Contribution = () => {
               className="w-full sm:w-2/3 px-4 py-2 text-sm font-medium text-black bg-white border border-gray-300 rounded-3xl focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <div className="w-full sm:w-1/3 flex justify-center sm:justify-start">
-              <Button text={"Subscribe"} fulleounded className=" w-1/2 sm:w-full" />
+              <button
+                className="px-4 py-3 bg-active text-white font-bold
+               rounded-full hover:text-active hover:bg-white  cursor-pointer "
+              >
+                Subscribe{" "}
+              </button>
             </div>
           </div>
         </div>
