@@ -2,7 +2,7 @@
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Find from '../components/Find'
-import Customer from '../components/Customer'
+import CustomerRes from '../components/Customer'
 import Choose from '../components/Choose'
 import Services from '../components/Services'
 import Team from '../components/Team'
@@ -16,7 +16,7 @@ const Home = () => {
         <Navbar/>
         <Hero/>
         <Find/>
-        <Customer/>
+        <CustomerRes/>
         <Choose/>
         <Services/>
         <Team/>
