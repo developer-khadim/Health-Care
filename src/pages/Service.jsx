@@ -4,6 +4,7 @@ import Find from '../components/Find'
 import Ser from '../components/Services'
 import Customers from "../components/Customers";
 import Button from "../components/Button";
+import FAQ from "../components/FAQ";
 
 const Service = () => {
   return (
@@ -42,6 +43,7 @@ const Service = () => {
             <Find/>
            <Ser/>
            <Customers/>
+           <FAQ/>
         </div>
     </div>
   );

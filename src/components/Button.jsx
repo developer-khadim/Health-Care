@@ -1,11 +1,12 @@
-const Button = ({ white, text, backwhite, full, fullwhite }) => {
+const Button = ({ white, text, backwhite, fulleounded, fullwhite }) => {
   let buttonClasses = 'flex items-center font-semibold px-6 py-3 rounded-md hover:scale-105 ';
 
-  if (full) {
-    buttonClasses += 'rounded-full bg-active text-white py-2 ';
-  } else if (fullwhite) {
+   if (fullwhite) {
     buttonClasses += 'rounded-3xl bg-transparent border border-active text-white ';
-  } else if (backwhite) {
+  } else if(fulleounded){
+    buttonClasses +="rounded-4xl bg-active text-white   "
+  } 
+  else if (backwhite) {
     buttonClasses += 'bg-white text-black ';
   } else if (white) {
     buttonClasses += 'text-black bg-transparent ';
