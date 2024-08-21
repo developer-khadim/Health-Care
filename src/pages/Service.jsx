@@ -5,6 +5,9 @@ import Ser from '../components/Services'
 import Customers from "../components/Customers";
 import Button from "../components/Button";
 import FAQ from "../components/FAQ";
+import Search from "../components/Search";
+import Footer from '../components/Footer'
+
 
 const Service = () => {
   return (
@@ -44,8 +47,11 @@ const Service = () => {
            <Ser/>
            <Customers/>
            <FAQ/>
+          <Search/>
         </div>
+        <Footer/>
     </div>
+    
   );
 };
 
