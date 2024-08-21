@@ -43,9 +43,9 @@ const Navbar = () => {
             <Link
               key={item}
               to={item === "Home" ? "/" : `/${item}`}
-              className={`text-black hover:text-active transition-all duration-300 transform hover:translate-y-[-2px] relative ${
+              className={`text-black hover:text-active  transition-all duration-300 transform hover:translate-y-[-2px] relative ${
                 isActive(item)
-                  ? "text-[#007E85] after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-[2px] after:bg-[#007E85]"
+                  ? " text-green after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-[2px] after:bg-[#007E85]"
                   : ""
               }`}
             >

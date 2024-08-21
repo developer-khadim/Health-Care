@@ -6,9 +6,9 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <div className="bg-[#ececec] w-full h-auto ">
+    <div className="bg-[#ececec] w-full h-auto">
       <Navbar />
-      <img src={Hospital}  className="mt-3  w-full h-[93vh]"   />      
+      <img src={Hospital} className="mt-3 w-full h-[93vh] object-cover  " />      
       <ContactUs/>
       <Search/>
       <Footer/>

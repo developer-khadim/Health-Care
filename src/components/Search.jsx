@@ -1,5 +1,5 @@
 const Search = () => (
-  <div className="w-full py-8 px-4 sm:px-6 md:px-10 bg-[#ECECEC] pt-10">
+  <div className="w-full pb-8 px-4 sm:px-6 md:px-10 bg-[#ECECEC] ">
     <div className="mt-16 sm:mt-28 mx-auto flex flex-col items-center justify-center">
       <h1 className="text-black font-semibold text-xl sm:text-3xl mb-4 text-center">
         Subscribe to our newsletter
